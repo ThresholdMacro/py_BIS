@@ -1,5 +1,5 @@
-Focus Area,Dataset Code,Example series code,Freq,,Country,Borrowing sector,Lending sector,Borrowing sector ,Cross-border & local,Type of instrument,Valuation,Currency,Adjusted for breaks
-Total credit to non-financial,WS_TC,Q.US.G.A.M.USD.A,"(Q) quarterly,(A) annual",Borrowing curency,US,,,"(G) govt, non-financial (N), household (H)",,,"(M) market, (N) nominal","(USD) usd, (XDC) local (770) %GDP","(A) adjusted, (U) unadjusted"
+Focus Area,Dataset Code,Example series code,Freq,Borrowing curency,Country,Borrowing sector,Lending sector,Borrowing sector ,Cross-border & local,Type of instrument,Valuation,Currency,Adjusted for breaks
+Total credit to non-financial,WS_TC,Q.US.G.A.M.USD.A,"(Q) quarterly,(A) annual",,US,,,"(G) govt, non-financial (N), household (H)",,,"(M) market, (N) nominal","(USD) usd, (XDC) local (770) %GDP","(A) adjusted, (U) unadjusted"
 Debt securities by sector,WS_NA_SEC_DSS,,,,,,,,,,,,
 Loans by sector,WS_NA_SEC_LOAN,,,,,,,,,,,,
 Deposits by sector,WS_NA_SEC_DEPO,,,,,,,,,,,,
