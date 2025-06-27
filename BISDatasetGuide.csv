@@ -1,0 +1,13 @@
+Focus Area,Dataset Code,Example series code,Freq,,Country,,,Borrowing sector ,,,Valuation,Currency,Adjusted for breaks
+Total credit to non-financial,WS_TC,Q.US.G.A.M.USD.A,"(Q) quarterly,(A) annual",Borrowing curency,US,Borrowing sector,Lending sector,"(G) govt, non-financial (N), household (H)",Cross-border & local,Type of instrument,"(M) market, (N) nominal","(USD) usd, (XDC) local (770) %GDP","(A) adjusted, (U) unadjusted"
+Debt securities by sector,WS_NA_SEC_DSS,,,,,,,,,,,,
+Loans by sector,WS_NA_SEC_LOAN,,,,,,,,,,,,
+Deposits by sector,WS_NA_SEC_DEPO,,,,,,,,,,,,
+Total debt by sector,WS_NA_SEC_DEBT,,,,,,,,,,,,
+Credit by sector,WS_NA_SEC_CREDIT,,,,,,,,,,,,
+Balance sheets by sector,WS_NA_SEC_BS,,,,,,,,,,,,
+International banking,WS_NA_SEC_IB,,,,,,,,,,,,
+Locational banking,WS_NA_SEC_LOC,,,,,,,,,,,,
+Consolidated banking,WS_NA_SEC_CON,,,,,,,,,,,,
+Central bank balance sheets,WS_CBTA,M.BE.B.XDC.EUR.B,"(M) mthly, (Q) quarterly, (A) annual",,BE,,,,,,,(XDC) local ,"(B) adjusted, (N) unadjusted"
+Global liquidity,WS_GLI,Q.USD.CN.N.A.I.B.USD,(Q) quarterly,"USD, EUR, JPY",CN,"(A) all, (N) non-banks",(A) all,,(I) cross-border and local,(B) credit (loans & bonds),,"USD, EUR, JPY, 770 (% GDP), 771 (yoy chg)",

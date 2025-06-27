@@ -1,0 +1,46 @@
+{
+  "name": "BIS ",
+  "img": "https://i0.wp.com/bankunderground.co.uk/wp-content/uploads/2021/04/Decomposing-post-image.jpg?ssl=1",
+  "img_dark": "https://i0.wp.com/bankunderground.co.uk/wp-content/uploads/2021/04/Decomposing-post-image.jpg?ssl=1",
+  "img_light": "https://i0.wp.com/bankunderground.co.uk/wp-content/uploads/2021/04/Decomposing-post-image.jpg?ssl=1",
+  "description": "BIS Credit data",
+  "allowCustomization": true,
+  "tabs": {
+    "main": {
+      "id": "main",
+      "name": "Main",
+      "layout": [
+        {
+          "i": "BIS Credit Chart",
+          "x": 0,
+          "y": 2,
+          "w": 20,
+          "h": 13,
+          "state": {
+            "params": {
+              "query": "US@Q.US.N.A.M.XDC.U, GB@Q.GB.N.A.M.XDC.U, Spain@Q.ES.N.A.M.XDC.U",
+              "start": "2000-01-01",
+              "title": "Total credit to non-financial sector"
+            }
+          }
+        },
+     {
+          "i": "BIS Credit Chart",
+          "x": 0,
+          "y": 2,
+          "w": 20,
+          "h": 13,
+          "state": {
+            "params": {
+              "query": "Japan@Q.JP.N.A.M.XDC.U, France@Q.FR.N.A.M.XDC.U, Canada@Q.CA.N.A.M.XDC.U",
+              "start": "2000-01-01",
+              "title": "Total credit to non-financial sector"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "groups": []
+}

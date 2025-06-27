@@ -1,0 +1,65 @@
+[
+  {
+    "name": "BIS Credit to Non-Bank FIs Australia",
+    "img": "https://www.bis.org/images/logo_bis.gif",
+    "img_dark": "",
+    "img_light": "",
+    "description": "Dashboard for BIS Credit to Non-Bank Financial Intermediaries in Australia. Includes both a table and a chart view with customizable parameters.",
+    "allowCustomization": true,
+    "tabs": {
+      "bis-data": {
+        "id": "bis-data",
+        "name": "BIS Data",
+        "layout": [
+          {
+	    "i": "bis_credit_nonbank_au_table",
+	    "x": 0,	
+	    "y": 2,
+	    "w": 20,
+	    "h": 10,
+	    "state": {
+		"endpoint": "https://stats.bis.org/api/v2/dataflow/BIS/WS_TC/%2B/Q.AU.N.A.M.XDC.U",
+		"params": {
+		   "accept": "text/csv"
+		},
+	 "chartView": {
+	   "enabled": false
+	 }
+	}
+	},
+          {
+            "i": "bis_credit_nonbank_au_chart",
+            "x": 20,
+            "y": 2,
+            "w": 20,
+            "h": 15,
+            "state": {
+              "endpoint": "https://stats.bis.org/api/v2/dataflow/BIS/WS_TC/%2B/Q.AU.N.A.M.XDC.U",
+              "params": {
+                "accept": "text/csv"
+              },
+              "chartView": {
+                "enabled": true,
+                "chartType": "line",
+                "x": "TIME_PERIOD",
+                "y": "OBS_VALUE"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "groups": [
+      {
+        "name": "BIS Parameters",
+        "type": "param",
+        "paramName": "accept",
+        "defaultValue": "text/csv",
+        "widgetIds": [
+          "bis_credit_nonbank_au_table",
+          "bis_credit_nonbank_au_chart"
+        ]
+      }
+    ]
+  }
+]
